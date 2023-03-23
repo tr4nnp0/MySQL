@@ -1,0 +1,4 @@
+SELECT senac_coin.senac_coin_id, senac_coin_movimentacao.senac_coin_movimentacao_data,
+senac_coin_movimentacao.senac_coin_movimentacao_valor AS extrato_movimentacao
+FROM bdacompanhamento.senac_coin_movimentacao
+WHERE senac_coin.senac_coin_id = 1;
